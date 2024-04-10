@@ -27,7 +27,7 @@ const App = () => {
       <center>
         <div className="card">
           <div className="card-body">
-            <h4 className="card-title">WETHER APP project</h4>
+            <h4 className="card-title">WETHER APP project for assignment</h4>
             <form onSubmit={submitHandler}>
               <input type="text" name="city" value={city} onChange={changeHandler}/><br/><br/>
               <input type="submit" value="Get Temperature"/>
